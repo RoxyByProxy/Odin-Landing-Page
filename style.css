@@ -2,15 +2,16 @@ body {
     display: flex;
     font-family: roboto, sans-serif;
     flex-direction: column;
-    align-items: center;
+    justify-content: space-around;
     width: 100%;
+    margin: 0;
 }
 
 ul {
     list-style: none;
     display: flex;
     gap: 18px;
-
+    flex: 0 0 auto;
 }
 
 a {
@@ -23,6 +24,7 @@ h3 {
     font-size: 24px;
     font-weight: 700;
     color: #E5E7EB;
+    flex: 0 0 auto;
 }
 
 h1 {
@@ -35,14 +37,17 @@ h1 {
 p {
     font-size: 18px;
     color: #E5E7EB;
+    margin: 0;
 }
 
 button {
     font-size: 18px;
-    padding: 8px 24px;
+    padding: 8px 32px;
     flex: 0 0 auto;
     background-color: #3882F6;
-    color: #E5E7EB;
+    color: #F9FAF8;
+    border-radius: 12px;
+    font-weight: 700;
 }
 
 .top {
@@ -52,6 +57,7 @@ button {
     flex: 1 1 0;
     gap: 48px;
     padding-bottom: 128px;
+    justify-content: space-around;
     width: 100%;
 }
 
@@ -59,6 +65,7 @@ button {
     display: flex;
     padding: 8px;
     justify-content: space-around;
+    flex: 0 0 auto;
 }
 
 .imagecontent {
@@ -72,6 +79,7 @@ button {
     flex-direction: column;
     width: 450px;
     align-items: flex-start;
+    gap: 8px;
 }
 
 .image {
