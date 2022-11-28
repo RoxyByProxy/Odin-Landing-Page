@@ -104,12 +104,25 @@ button {
 }
 
 .illustrations {
-    dXisplay: flex;
+    display: flex;
 }
 
 .picture {
+    flex: 0 1 auto;
     height: 300px;
     width: 300px;
     border: 8px;
     border-color: #3882F6;
+}
+
+.captionpicture {
+    display: flex;
+    height: 400px;
+    width: 300px;
+    flex-direction: column;
+    flex: 0 1 auto;
+}
+
+.caption {
+
 }
