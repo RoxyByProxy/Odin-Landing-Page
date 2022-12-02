@@ -170,3 +170,40 @@ button {
     padding: 0;
 }
 
+.bottom {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.bannerbutton {
+    background-color: #3882F6;
+    display: flex;
+    align-items: center;
+    width: 1024px;
+    flex: 0 1 auto;
+    justify-content: space-evenly;
+    border-radius: 12px;
+    padding: 50px;
+}
+
+.bannercontent {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.botbut {
+    border: 2px solid;
+    border-color: white;
+}
+
+.footer {
+    display: flex;
+    background-color: #1f2937;
+    justify-content: center;
+    padding: 40px;
+}
